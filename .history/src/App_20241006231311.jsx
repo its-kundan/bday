@@ -3,7 +3,6 @@ import { motion } from 'framer-motion';
 import { FacebookShareButton, TwitterShareButton, WhatsappShareButton } from 'react-share';
 import html2canvas from 'html2canvas';
 
-const message = "Wishing you a very happy BirthDay, "
 const App = () => {
   const [name, setName] = useState('');
   const [submitted, setSubmitted] = useState(false);
@@ -62,7 +61,7 @@ const App = () => {
               className="absolute top-0 left-0 w-full h-full bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 rounded-lg flex items-center justify-center"
             >
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white text-center px-4">
-                  {message}<span className="text-yellow-300">{name}</span> 
+                 <span className="text-yellow-300">{name}</span>! 
               </h1>
             </div>
           </div>

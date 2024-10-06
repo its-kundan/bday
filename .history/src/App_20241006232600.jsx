@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 import { FacebookShareButton, TwitterShareButton, WhatsappShareButton } from 'react-share';
 import html2canvas from 'html2canvas';
 
-const message = "Wishing you a very happy BirthDay, "
+const message = ""
 const App = () => {
   const [name, setName] = useState('');
   const [submitted, setSubmitted] = useState(false);
